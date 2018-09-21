@@ -49,13 +49,13 @@ def run(songs)
   answer = gets.chomp
   case answer
     when "help"
-      
+      help()
     when "play"
-      
+      play(songs)
     when "list"
-      
+      list(songs)
     when "exit"
-      
+      exit
     else
   end
 end
