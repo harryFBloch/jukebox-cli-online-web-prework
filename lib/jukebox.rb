@@ -48,7 +48,15 @@ def run(songs)
   puts"Please enter a command:"
   answer = gets.chomp
   case answer
-  
-  when answer
+    when "help"
+      
+    when "play"
+      
+    when "list"
+      
+    when "exit"
+      
+    else
+  end
 end
 
